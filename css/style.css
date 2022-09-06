@@ -160,6 +160,7 @@ header{
 
 .fourth{ 
     background-color: green;
+    margin: auto;
     width: 80%;
     min-height: 600px;
 }
@@ -205,7 +206,7 @@ header{
     border: 1px solid;
 }
 
-    /* FOOTER */
+
 .flex-footer{
     display: flex;
     width: 70%;
@@ -214,4 +215,18 @@ header{
                 
             /* debug */
             height: 100px;
+}
+
+.footer-nav{
+    list-style: none;
+    padding-left: 2em;
+    line-height: 2em;
+}
+
+.footer-nav li:first-child{
+    color: rgb(85, 69, 189);
+}
+
+hr{
+    color:rgb(85, 69, 189);
 }
