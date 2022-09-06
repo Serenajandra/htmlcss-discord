@@ -45,10 +45,11 @@ header{
 
     /* nav-bar */
 
-/* .logo-container{
+.logo{
+    width:100%;
+    min-height: 20px;
 
-
-} */
+}
 
 .flex-nav, container{
     display: flex;
@@ -63,7 +64,7 @@ header{
         
             /* debug */
             /* width: 60px; */
-            background-color: rgba(165, 42, 42, 0.425);
+            /* background-color: rgba(165, 42, 42, 0.425); */
             min-height: 50px;
 }
 
@@ -125,6 +126,7 @@ header{
     width: 40%;
     text-align: left;
     padding:6em;
+
    
     /* min-height: 400px; */
 }
@@ -139,27 +141,37 @@ header{
 }
 
 .wave-container {
+    /* background-image:url(../img/wave.svg); */
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.384);
+    /* opacity: 0.5; */
     display: flex;
     width: 100%;        
     margin: 30px 0;
     min-height: 440px;
     padding: 20px, 0;
-         /* debug */
-            background-color: rgb(141, 135, 135);
          
 }
+
+/* 
+.wave-semitrans{
+background: #f00;
+    width: 100%;
+opacity: 0.6;
+filter: alpha(opacity=60);
+} */
 
 .text-part2{
     text-align: center;
     width: 90%;
     margin: 4em auto;
+
     /* padding: 3em;
     padding-bottom: 2em; */
 }
 
 
 .fourth{ 
-    background-color: green;
     margin: auto;
     width: 80%;
     min-height: 600px;
