@@ -45,10 +45,10 @@ header{
 
     /* nav-bar */
 
-.logo-container{
+/* .logo-container{
 
 
-}
+} */
 
 .flex-nav, container{
     display: flex;
@@ -129,12 +129,12 @@ header{
     /* min-height: 400px; */
 }
 
-.text-part>h1{
+.title-section{
     margin-bottom: 1em;
     line-height: 1.5em;
 }
 
-.text-part>p{
+.title-section{
     line-height: 1.5em;
 }
 
@@ -149,16 +149,41 @@ header{
          
 }
 
-
-.fourth{
-    background-color: green;
-    align-content: center;
-    margin: auto, 0;
-
-        /* debug */
-         height: 400px;
+.text-part2{
+    text-align: center;
+    width: 90%;
+    margin: 4em auto;
+    /* padding: 3em;
+    padding-bottom: 2em; */
 }
 
+
+.fourth{ 
+    background-color: green;
+    width: 80%;
+    min-height: 600px;
+}
+
+.big-img{
+    min-height: 700px;
+    text-align: center;
+}
+
+.star-question{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    margin-bottom: 2em;
+}
+
+.scarica-finale{
+ background-color: lightskyblue;
+ color: white;   
+}
+
+.pedice{
+    text-align: center;
+    margin-bottom: 4em;
+}
 
     /* FOOTER */
 .black-container{
