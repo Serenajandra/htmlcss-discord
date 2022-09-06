@@ -16,25 +16,43 @@ html{
 
 .section{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto;
         /* debug */
-        height: 400px;
+        min-height: 400px;
         background-color: red;
+}
+
+.button{
+    width: 10%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+    text-decoration: none;    
+    min-height: 20px;
+    padding: 0.5em;
+    color: black;
 }
 
 /* HEADER */
 header{
-
-    /* debug */
-    background-color: aquamarine;
+ background-image: url(../img/jumbo.png);
+ background-size: 100%;
+ min-height: 500px;
+ margin-bottom: 30px;
 }
 
 
     /* nav-bar */
+
+.logo-container{
+
+
+}
+
 .flex-nav, container{
     display: flex;
-    width: 70%;
+    width: 80%;
     align-items: center; 
             /* debug */
             height: 100px;
@@ -45,8 +63,8 @@ header{
         
             /* debug */
             /* width: 60px; */
-            background-color: brown;
-            height: 20px;
+            background-color: rgba(165, 42, 42, 0.425);
+            min-height: 50px;
 }
 
 .link-container-flex{
@@ -55,58 +73,69 @@ header{
     justify-content: center;
     list-style-type: none;
     width: 70%;
-            /* debug */
-            background-color: green;
-            height: 20px;
+    min-height: 20px;
+    color: white;
+    font-size: 0.8em;
+
+        
 }
 
 .link-container-flex li{
     margin-right: 7%;
 }
 
-.button-container{
-    width: 15%;
-    text-align: end;
-        
-            /* debug */
-            background-color: brown;
-            height: 20px;
-}
-
-.banner, container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-
-             /* debug */
-            height: 300px;
-            background-color: blue;
-}
-
 .header-text{
-    width: 40%;
+    width: 50%;
     text-align: center;
-    margin-left: 30%;
-    padding-top: 30px;
-        
-            /* debug */
-            background-color: orange;
-            height: 250px;
+    padding: 20px;
+    min-height: 250px;
+    margin: 50px auto;
+    color: white;
+    line-height: 2em;
+}
+
+.header-text>h1{
+    margin-bottom:1em;
+}
+
+/* .arrow{
+
+} */
+
+.header-text>p{
+    margin-bottom: 10px;
+}
+
+.apri{
+    background-color: black;
+    color: white;
+    margin: 10px;
 }
 
     /* MAIN */
     
-.img{
-    background-color: lightblue;
-    width:60%;
-    height: 400px; 
-    }
+/* img{
+    margin: auto;
+    height: auto;
+    padding: auto;
+} */
 
 .text-part{
-    background-color: pink;
+
     width: 40%;
-    min-height: 400px;
+    text-align: left;
+    padding:6em;
+   
+    /* min-height: 400px; */
+}
+
+.text-part>h1{
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.text-part>p{
+    line-height: 1.5em;
 }
 
 .wave-container {
