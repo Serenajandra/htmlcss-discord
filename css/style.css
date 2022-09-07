@@ -219,9 +219,11 @@ filter: alpha(opacity=60);
 }
 
 hr{
-      color:rgb(85, 69, 189);
     width: 80%;
     margin: auto;
+    height: 1px;
+    background-color: rgb(85, 69, 189);
+    border: none
 }
 
 .button, final{
