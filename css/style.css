@@ -18,9 +18,7 @@ html{
     display: flex;
     width: 80%;
     margin: auto;
-        /* debug */
-        min-height: 400px;
-        background-color: red;
+    min-height: 400px;
 }
 
 .button{
@@ -55,17 +53,12 @@ header{
     display: flex;
     width: 80%;
     align-items: center; 
-            /* debug */
-            height: 100px;
+    min-height: 100px;
 }
 
 .logo-container{
     width: 15%;
-        
-            /* debug */
-            /* width: 60px; */
-            /* background-color: rgba(165, 42, 42, 0.425); */
-            min-height: 50px;
+    min-height: 50px;
 }
 
 .link-container-flex{
@@ -76,9 +69,7 @@ header{
     width: 70%;
     min-height: 20px;
     color: white;
-    font-size: 0.8em;
-
-        
+    font-size: 0.8em;      
 }
 
 .link-container-flex li{
@@ -99,10 +90,6 @@ header{
     margin-bottom:1em;
 }
 
-/* .arrow{
-
-} */
-
 .header-text>p{
     margin-bottom: 10px;
 }
@@ -113,22 +100,12 @@ header{
     margin: 10px;
 }
 
-    /* MAIN */
-    
-/* img{
-    margin: auto;
-    height: auto;
-    padding: auto;
-} */
-
 .text-part{
 
     width: 40%;
     text-align: left;
     padding:6em;
-
-   
-    /* min-height: 400px; */
+    min-height: 400px;
 }
 
 .title-section{
@@ -165,9 +142,6 @@ filter: alpha(opacity=60);
     text-align: center;
     width: 90%;
     margin: 4em auto;
-
-    /* padding: 3em;
-    padding-bottom: 2em; */
 }
 
 
@@ -208,25 +182,30 @@ filter: alpha(opacity=60);
     }
 
 .bigger{
-    background-color: aquamarine;
+    color: rgb(85, 69, 189);
     width:40%;
-    border: 1px solid;
  }
-.zero{
-    background-color: pink;
-    width: 20%;
-    border: 1px solid;
+
+.flag{
+    width: 20px;
 }
 
+.bigger > span{
+    color:white;
+    line-height: 3em;
+}
+
+.zero{
+    width: 20%;
+    color: white;
+}
 
 .flex-footer{
     display: flex;
     width: 70%;
     align-items: center;
     justify-content: space-between;
-                
-            /* debug */
-            height: 100px;
+    min-height: 100px;
 }
 
 .footer-nav{
@@ -240,5 +219,12 @@ filter: alpha(opacity=60);
 }
 
 hr{
-    color:rgb(85, 69, 189);
+      color:rgb(85, 69, 189);
+    width: 80%;
+    margin: auto;
+}
+
+.button, final{
+    background-color:rgb(85, 69, 189);
+    color: white;
 }
