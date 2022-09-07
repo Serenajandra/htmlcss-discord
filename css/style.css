@@ -153,13 +153,17 @@ header{
 }
 
 .star-question{
+
     background-image: url(../img/stars.svg);
-    background-position: center;
-    margin-bottom: 2em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 2em auto 0;
+    padding: 1.5em;
 }
 
 .scarica-finale{
- background-color: lightskyblue;
+ background-color: rgb(85, 69, 189);
  color: white;   
 }
 
@@ -177,18 +181,22 @@ header{
     padding: 20px 0;
     }
 
-.bigger{
+.bigger > h2{
     color: rgb(85, 69, 189);
-    width:40%;
- }
+}
 
 .flag{
     width: 20px;
 }
 
-.bigger > span{
+a{
     color:white;
     line-height: 3em;
+    text-decoration: none;
+}
+
+.social-icons{
+    color: white;
 }
 
 .zero{
