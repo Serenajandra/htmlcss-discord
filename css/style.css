@@ -29,6 +29,7 @@ html{
     text-decoration: none;    
     min-height: 20px;
     color: black;
+    padding: 0.4em;
 }
 
 /* HEADER */
@@ -190,7 +191,6 @@ header{
 
 a{
     color:white;
-    line-height: 3em;
     text-decoration: none;
 }
 
