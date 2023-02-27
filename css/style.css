@@ -17,7 +17,7 @@ html{
 .section{
     display: flex;
     width: 80%;
-    margin: auto;
+    margin: 2rem auto;
     min-height: 400px;
 }
 
@@ -27,86 +27,87 @@ html{
     border-radius: 50px;
     background-color: white;
     text-decoration: none;    
-    min-height: 20px;
+    /* min-height: 20px; */
     color: black;
-    padding: 0.4em;
+    padding: 0.5em;
 }
 
 /* HEADER */
 header{
- background-image: url(../img/jumbo.png);
- background-size: 100%;
- min-height: 500px;
- margin-bottom: 30px;
+    background-color: rgb(17, 80, 254);
+    padding-top: 2rem;
+    margin: 0 auto;
+    height: 6rem;
 }
 
-
-    /* nav-bar */
-.logo{
-    width:100%;
-    min-height: 20px;
-
-}
-
-.flex-nav, container{
+/* nav-bar */
+.flex-nav{
     display: flex;
     width: 80%;
     align-items: center; 
-    min-height: 100px;
+    justify-content: space-around;
 }
 
 .logo-container{
-    width: 15%;
-    min-height: 50px;
+    width: 9em;
 }
 
-.link-container-flex{
+.link-container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     list-style-type: none;
     width: 70%;
-    min-height: 20px;
     color: white;
     font-size: 0.8em;      
 }
 
-.link-container-flex li{
-    margin-right: 7%;
+.link-container>li{
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
-/* BANNER */
-.header-text{
-    width: 50%;
-    text-align: center;
-    padding: 20px;
-    min-height: 250px;
-    margin: 50px auto;
-    color: white;
-    line-height: 2em;
-}
 
-.header-text>h1{
-    margin-bottom:1em;
-}
-
-.header-text>p{
-    margin-bottom: 10px;
-}
-
-.apri{
-    background-color: black;
-    color: white;
-    margin: 10px;
-}
 
 /* MAIN */
-.text-part{
+/* banner */
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    min-height: 550px;
+    background-repeat: no-repeat;
+}
 
+.jumbo-text{
+    width: 50%;
+    text-align: center;
+    padding: 4rem;
+    margin: 0 auto;
+    color: white;
+    line-height: 3em;
+}
+
+.jumbo-text>h1{
+    padding:1em;
+}
+
+.jumbo-text>p{
+    margin-bottom: 3em;
+}
+
+.open-discord{
+    background-color: black;
+    color: white;
+    padding: .5em;
+    margin-left: 2em;
+    /* white-space: normal; */
+}
+/* /banner */
+
+.text-container{
     width: 40%;
     text-align: left;
-    padding:6em;
-    min-height: 400px;
+    padding-bottom:3em;
+    padding-top: 3em;
 }
 
 .title-section{
@@ -114,19 +115,26 @@ header{
     line-height: 1.5em;
 }
 
+.paragraph-section{
+    line-height: 1.5em;
+}
+
 .wave{
   opacity: 0.2;
-  margin-bottom:-4px;   
+  margin-bottom:-4px; 
+  width: 100%;  
 }
 
 .wave.reverse{
     transform:rotate(180deg);
     vertical-align: top;
+    width: 100%;
+    opacity: 0.2;
 }
 
 .wave-container{
     background-size: cover;
-    background-color: rgba(128, 128, 128, 0.384);
+    background-color: rgba(128, 128, 128, 0.396);
     display: flex;
     width: 100%;        
     margin: 0 auto;
@@ -135,13 +143,13 @@ header{
          
 }
 
-.text-part2{
+.text-large-part{
     text-align: center;
     width: 90%;
     margin: 4em auto;
 }
 
-.fourth{ 
+.section-large{ 
     margin: auto;
     width: 80%;
     min-height: 600px;
